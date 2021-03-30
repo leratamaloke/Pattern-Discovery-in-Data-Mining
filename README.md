@@ -1,9 +1,11 @@
 # Pattern-Discovery-in-Data-Mining
 
 Description
+
 In this programming assignment, you are required to implement the Apriori algorithm and apply it to mine frequent itemsets from a real-life data set.
 
 Input
+
 The provided input file ("categories.txt") consists of the category lists of 77,185 places in the US. Each line corresponds to the category list of one place, where the list consists of a number of category instances (e.g., hotels, restaurants, etc.) that are separated by semicolons.
 
 An example line is provided below:
@@ -13,7 +15,9 @@ Local Services;IT Services & Computer Repair
 In the example above, the corresponding place has two category instances: "Local Services" and "IT Services & Computer Repair".
 
 categories.txt
+
 Output
+
 You need to implement the Apriori algorithm and use it to mine category sets that are frequent in the input data. When implementing the Apriori algorithm, you may use any programming language you like. We only need your result pattern file, not your source code file.
 
 After implementing the Apriori algorithm, please set the relative minimum support to 0.01 and run it on the 77,185 category lists. In other words, you need to extract all the category sets that have an absolute support larger than 771.
